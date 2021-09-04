@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+   <ul class="caja espacio">
+       <li class="imagenes"><img src="img/html.png" width="70px"></li>
+       <li class="texto">HTML 5 y CSS 3 son los ingredientes de la nueva web</li>
+       <li class="imagenes"><img src="img/css.png" width="70px"></li>
+    </ul>
+    <hr>
+    
+    <p>Una web independiente del sistema operativo</p>
+    <ul class="caja centrado">
+        <li class="imagenes"><img src="img/android.png" width="60px"></li>
+        <li class="imagenes"><img src="img/ios.png" width="60px"></li>
+        <li class="imagenes"><img src="img/ubuntu.png" width="60px"></li>
+        <li class="imagenes"><img src="img/windows.png" width="60px"></li>
+    </ul>
+    <hr>
+    <p>Una web independiente del navegador</p>
+    <ul class="caja centrado">
+        <li class="imagenes"><img src="img/explorer.png" width="60px"></li>
+        <li class="imagenes"><img src="img/mozilla.png" width="60px"></li>
+        <li class="imagenes"><img src="img/chrome.png" width="60px"></li>
+    </ul>
+    <hr>
+    <p>Una web independiente de ti</p>
+    <ul class="caja centrado">
+        <li class="imagenes"><img src="img/emoji.png" width="60px"></li>
+    </ul>
+</body>
+</html>
+
+<style>
+    .caja{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    .espacio { 
+        justify-content: space-between; 
+    }  
+    
+    .imagenes {
+        padding: 5px;
+        width: 60px;
+        height: 50px;
+        margin: 5px;
+    }
+    .texto {
+        padding: 5px;
+        width: 380px;
+        height: 50px;
+        margin: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    .centrado { 
+        justify-content: center; 
+    }  
+    
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: 3px solid red;
+    }
+</style>
